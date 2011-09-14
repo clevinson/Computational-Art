@@ -13,8 +13,11 @@
 require 'rubygems'
 require 'FlickRaw'
 require 'ruby-processing'
+require 'yaml'
 
-FlickRaw.api_key = "bfaa37fbd00c1291ced65b903fb15fda"
+api_keys = YAML.load_file('../config/api_keys.yml')
+
+FlickRaw.api_key = api_keys['flickr']
 
 class Sketch1 < Processing::App
 
