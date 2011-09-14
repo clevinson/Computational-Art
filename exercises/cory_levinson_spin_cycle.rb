@@ -5,7 +5,7 @@
 # Spin Cycle (Exercise 1)
 # 
 # NOTE: This script requires both the 'FlickRaw' and 'ruby-processing' gems.
-#	After installing both of these gems, in bash enter: 'rp5 run path/to/file/cory_levinson_ex_1.rb'
+#	After installing both of these gems, in bash enter: 'rp5 run path/to/file/cory_levinson_spin_cycle.rb'
 #       for more help with ruby-processing, peep the wiki on github: https://github.com/jashkenas/ruby-processing/wiki
 #
 ############--------------------############
