@@ -7,7 +7,7 @@ require "~/Computational-Art/exercises/exercise_2/code/modestmaps.jar"
 #  make sure to change the above require string to match where your copy of modestmaps.jar is
 
 MM = com.modestmaps
-$search_term = "murder"
+$search_term = "phone tap"
 
 class CableSearch
 
