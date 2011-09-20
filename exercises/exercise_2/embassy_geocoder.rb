@@ -10,8 +10,8 @@ city_name = {}
 
 offices.each { |office| city_name[office] = office.gsub('Embassy ', '').gsub('Consulate ', '') }
 
-good_file = File.new('office_locations.txt', 'w')
-bad_file = File.new('unfound_locations.txt', 'w')
+good_file = File.new('office_locations.txt', 'a')
+bad_file = File.new('unfound_locations.txt', 'a')
 
 geo_data = {}
 bad_cities = []
@@ -26,8 +26,8 @@ city_name.each do |office, city|
   end
 end
 
-file.syswrite(geo_data.to_s)
-file.close
+good_file.syswrite(geo_data.to_s)
+good_file.close
 
 bad_file.syswrite(bad_cities.to_s)
 bad_file.close

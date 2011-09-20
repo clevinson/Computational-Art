@@ -3,10 +3,11 @@ require 'google_maps_geocoder'
 require 'yaml'
 require 'open-uri'
 require 'json'
-require '~/Downloads/modest_maps_interactive/code/modestmaps.jar'
+require "~/Computational-Art/exercises/exercise_2/code/modestmaps.jar"
+#  make sure to change the above require string to match where your copy of modestmaps.jar is
 
 MM = com.modestmaps
-$search_term = "nuclear war"
+$search_term = "murder"
 
 class CableSearch
 
