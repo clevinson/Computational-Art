@@ -1,5 +1,4 @@
 require 'rubygems'
-require 'google_maps_geocoder'
 require 'yaml'
 require 'open-uri'
 require 'json'
